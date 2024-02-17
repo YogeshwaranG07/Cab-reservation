@@ -1,0 +1,78 @@
+*{
+	font-family: Century Gothic;
+}
+
+body{
+	background-image: url(tommyshelby.jpg);
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.header{
+	background: transparent;
+	height: 15%;
+}
+
+.header ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+.header ul li{
+	display: inline;
+	margin-right: 50px;
+}
+
+.header ul li a{
+	color: rgb(212,172,13);
+	text-decoration: none;
+}
+
+.header ul li a:hover{
+	color: white;
+}
+
+.form{
+	background: rgb(23,32,42);
+	float: right;
+	padding: 60px 40px 60px 40px;
+	border-radius: 10px;
+	margin-top: 60px;
+	margin-right: 5%;
+}
+
+.form p{
+	color: white;
+	margin-top: -15%;
+	margin-left: 25%;
+	margin-bottom: 20%;
+	font-size: 25px;
+}
+#name{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid rgb(212,173,13);
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+#button{
+	border-radius: 20px;
+	padding: 10px 20px;
+	background: rgb(212,172,13);
+	border: none;
+	outline: none;
+	color: black;
+	margin-top: 10px;
+}
+
+#button:hover{
+	background-color: white;
+}
+
+#sign{
+	top: 50px;
+	font-size: 15px;
+}

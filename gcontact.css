@@ -1,0 +1,51 @@
+*{
+	font-family: Century Gothic;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: black;
+}
+
+.header{
+	height: 15%;
+}
+
+.header img{
+	height: 120px;
+	width: 175px;
+}
+
+.header ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 35px;
+}
+
+.header ul li{
+	display: inline;
+	margin-right: 50px;
+}
+
+.header ul li a{
+	color: rgb(212,172,13);
+	text-decoration: none;
+}
+
+.header ul li a:hover{
+	color: white;
+}
+
+#info{
+	text-align: center;
+	font-family: Century Gothic;
+	margin-top: 10px;
+}
+
+.cont p{
+	color: rgb(208,211,212);
+	text-align: center;
+	font-family: Century Gothic;
+	margin-top: 5px;
+}
